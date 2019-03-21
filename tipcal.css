@@ -1,0 +1,48 @@
+body {
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
+}
+#container {
+  background: linear-gradient(-45deg, #f0f9ff 16%, #cbebff 48%, #a1dbff 100%);
+  border-radius: 10px;
+  padding: 1.5em;
+}
+h1 {
+  text-align: center;
+}
+
+div {
+  line-height: 2.5em;
+}
+input[type="text"] {
+  font-size: 1.1em;
+  text-align: center;
+}
+label,
+input {
+  width: 100%;
+}
+
+@media (min-width: 690px) {
+  body {
+    width: 60%;
+    background-image: url(https://cn.opendesktop.org/img/8/6/1/2/e471cf130efb6c2b008102638db0db5225c9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    margin-top: 20px;
+  }
+  #container {
+    opacity: 0.9;
+  }
+  label,
+  input {
+    display: inline-block;
+    width: 40%;
+  }
+  div {
+    line-height: 4em;
+  }
+}
